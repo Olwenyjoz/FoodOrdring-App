@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:gravity="center_vertical"
+    android:background="@drawable/food_card">
+
+    <!-- FOOD IMAGE -->
+    <ImageView
+        android:id="@+id/ivCartFood"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background"
+        android:contentDescription="@string/food_name"/>
+
+    <!-- FOOD INFORMATION -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvCartFoodName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/food_name"
+            android:textColor="@color/foodie_text"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvCartFoodPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/cart_total_default"
+            android:textColor="@color/foodie_primary"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvCartItemTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/cart_total_default"
+            android:textColor="@color/foodie_text"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+
+        <!-- QUANTITY CONTROLS -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/btnCartDecrease"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:padding="0dp"
+                android:text="@string/cart_quantity_decrease"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:contentDescription="@string/cart_quantity_decrease"/>
+
+            <TextView
+                android:id="@+id/tvCartQuantity"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:text="@string/cart_quantity_default"
+                android:textColor="@color/foodie_text"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btnCartIncrease"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:padding="0dp"
+                android:text="@string/cart_quantity_increase"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:contentDescription="@string/cart_quantity_increase"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- DELETE -->
+    <ImageButton
+        android:id="@+id/btnRemoveCartItem"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:layout_marginStart="6dp"
+        android:background="@android:color/transparent"
+        android:padding="10dp"
+        android:src="@drawable/ic_delete"
+        android:contentDescription="@string/cart_item_remove"
+        android:scaleType="centerInside"/>
+
+</LinearLayout>

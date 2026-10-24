@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- App -->
+    <string name="app_name">Foodie App</string>
+    <string name="app_title">Foodie App</string>
+
+    <!-- Home -->
+    <string name="welcome_message">Welcome! What would you like to eat?</string>
+    <string name="hero_subtitle">Delicious food delivered to you</string>
+    <string name="search_food">Search food...</string>
+    <string name="categories">Categories</string>
+    <string name="see_all">See All</string>
+
+    <!-- Categories -->
+    <string name="category_burger_display">🍔\nBurger</string>
+    <string name="category_pizza_display">🍕\nPizza</string>
+    <string name="category_chicken_display">🍗\nChicken</string>
+    <string name="category_tacos_display">🌮\nTacos</string>
+
+    <!-- Food -->
+    <string name="popular_foods">Popular Foods</string>
+    <string name="food_description">Delicious and freshly prepared food.</string>
+    <string name="favorite_food">Favorite</string>
+    <string name="food_name">Food Name</string>
+    <string name="food_price">Food Price</string>
+
+    <!-- Navigation -->
+    <string name="back">‹</string>
+    <string name="navigate_back">‹</string>
+    <string name="navigation_back">‹</string>
+    <string name="navigation_home">Home</string>
+    <string name="navigation_cart">Cart</string>
+    <string name="navigation_orders">Orders</string>
+    <string name="navigation_profile">Profile</string>
+
+    <!-- Cart Badge -->
+    <string name="cart_badge">Cart items</string>
+    <string name="cart_count">Cart items</string>
+    <string name="cart_badge_default">0</string>
+
+    <!-- Order -->
+    <string name="order_now">Order Now</string>
+    <string name="order_now_title">Order Now</string>
+    <string name="quantity">Quantity:</string>
+    <string name="quantity_decrease">-</string>
+    <string name="quantity_default">1</string>
+    <string name="quantity_increase">+</string>
+    <string name="total">Total:</string>
+    <string name="total_default">KSh 0</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="place_order_now">Place Order Now</string>
+    <string name="added_to_cart">%1$s added to your cart.</string>
+
+    <!-- Cart -->
+    <string name="cart_title">Your Cart</string>
+    <string name="cart_total_default">KSh 0</string>
+    <string name="total_items">Total Items:</string>
+    <string name="grand_total">Grand Total:</string>
+    <string name="cart_quantity_decrease">-</string>
+    <string name="cart_quantity_default">1</string>
+    <string name="cart_quantity_increase">+</string>
+    <string name="cart_item_remove">Remove</string>
+    <string name="clear_cart">Clear Cart</string>
+    <string name="place_order">Place Order</string>
+    <string name="cart_cleared">Cart cleared.</string>
+    <string name="cart_empty">Your cart is empty.</string>
+
+    <!-- Checkout -->
+    <string name="checkout_title">Checkout</string>
+    <string name="customer_information">Customer Information</string>
+    <string name="customer_name_hint">Customer name</string>
+    <string name="phone_number_hint">Phone number</string>
+    <string name="delivery_address_hint">Delivery address</string>
+    <string name="enter_name_error">Enter your name</string>
+    <string name="enter_phone_error">Enter your phone number</string>
+    <string name="enter_address_error">Enter your delivery address</string>
+
+    <!-- Order Summary -->
+    <string name="order_summary">Order Summary</string>
+    <string name="order_summary_item">Item</string>
+    <string name="order_summary_quantity">Qty</string>
+    <string name="order_summary_amount">Amount</string>
+
+    <!-- Confirmation -->
+    <string name="confirm_order">Confirm Order</string>
+    <string name="order_confirmation">Order Confirmation</string>
+    <string name="confirmation_check">✓</string>
+    <string name="order_confirmation_message">Your order has been placed successfully!</string>
+    <string name="order_success">Your order has been placed successfully!</string>
+
+    <!-- Order Details -->
+    <string name="order_details">Order Details</string>
+    <string name="customer_label">Customer:</string>
+    <string name="phone_label">Phone:</string>
+    <string name="address_label">Address:</string>
+    <string name="items_ordered">Items Ordered</string>
+    <string name="total_paid">Total Paid:</string>
+    <string name="back_to_home">Back to Home</string>
+
+    <!-- Orders -->
+    <string name="orders_title">Orders</string>
+    <string name="no_orders_yet">No orders yet</string>
+    <string name="place_order_to_see">Place an order to see it here.</string>
+    <string name="order_completed">Order completed successfully</string>
+    <string name="orders_items_ordered">Items Ordered</string>
+    <string name="orders_grand_total">Grand Total</string>
+
+    <!-- Food Defaults -->
+    <string name="chicken_pizza">Chicken Pizza</string>
+    <string name="chicken_pizza_price">KSh 850</string>
+
+    <!-- Formatting -->
+    <string name="total_format">KSh %.0f</string>
+    <string name="cart_item_total_format">KSh %.0f</string>
+
+</resources>

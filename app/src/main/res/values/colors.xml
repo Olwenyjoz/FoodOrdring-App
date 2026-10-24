@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="foodie_primary">#6F4DB8</color>
+    <color name="foodie_primary_dark">#563A91</color>
+    <color name="foodie_background">#F8F6FC</color>
+    <color name="foodie_card">#FFFFFF</color>
+    <color name="foodie_text">#292332</color>
+    <color name="foodie_secondary_text">#706A78</color>
+    <color name="foodie_price">#6F4DB8</color>
+    <color name="foodie_search">#F0EDF5</color>
+</resources>
